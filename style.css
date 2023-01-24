@@ -1,6 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background: url(./assets/background.jpg) fixed;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3042;
+  height: 15vh;
+  box-shadow: 0px 0px 10px 0px #000000de;
+  opacity: 90%;
+  backdrop-filter: blur(6px);
+}
+header h1 {
+  color: white;
+  font-size: 2.5rem;
 }
 
 .filter-container {
@@ -63,7 +83,7 @@ input[type="range"] {
   backdrop-filter: blur(6px);
   background-color: #3a3042;
   border-radius: 10px;
-
+  gap: 20px;
   opacity: 90%;
   border: 1px solid #ffe19c;
   box-shadow: 0px 0px 10px 0px #000000de;
